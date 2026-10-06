@@ -389,6 +389,51 @@
             #binding-cells = <0>;
             mods = <(MOD_LALT|MOD_RALT)>;
         };
+
+        custom_preshifted_6: custom_preshifted_6 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "CUSTOM_PRESHIFTED_6";
+            bindings = <&kp LS(NUMBER_6)>, <&kp RA(NUMBER_6)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT|MOD_RALT)>;
+        };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-mod-morph";
+            label = "NEW_BEHAVIOR";
+            bindings = <&kp LS(NUMBER_7)>, <&kp RA(NUMBER_7)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT|MOD_RALT)>;
+        };
+
+        custom_preshifted_7: custom_preshifted_7 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "CUSTOM_PRESHIFTED_7";
+            bindings = <&kp LS(NUMBER_7)>, <&kp RA(NUMBER_7)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT|MOD_RALT)>;
+        };
+
+        custom_preshifted_8: custom_preshifted_8 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "CUSTOM_PRESHIFTED_8";
+            bindings = <&kp LS(NUMBER_8)>, <&kp RA(NUMBER_8)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT|MOD_RALT)>;
+        };
+
+        custom_preshifted_9: custom_preshifted_9 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "CUSTOM_PRESHIFTED_9";
+            bindings = <&kp LS(NUMBER_9)>, <&kp RA(NUMBER_9)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT|MOD_RALT)>;
+        };
     };
 
     combos {
