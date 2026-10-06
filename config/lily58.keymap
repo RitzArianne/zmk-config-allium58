@@ -348,7 +348,7 @@
         custom_preshifted_1: custom_preshifted_1 {
             compatible = "zmk,behavior-mod-morph";
             label = "CUSTOM_PRESHIFTED_1";
-            bindings = <&kp LS(NUMBER_1)>, <&kp LA(LC(NUMBER_1))>;
+            bindings = <&kp LS(NUMBER_1)>, <&kp LC(RA(NUMBER_1))>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
@@ -357,7 +357,7 @@
         custom_preshifted_2: custom_preshifted_2 {
             compatible = "zmk,behavior-mod-morph";
             label = "CUSTOM_PRESHIFTED_2";
-            bindings = <&kp LS(NUMBER_2)>, <&kp LA(LC(NUMBER_2))>;
+            bindings = <&kp LS(NUMBER_2)>, <&kp LC(RA(NUMBER_2))>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
@@ -366,7 +366,7 @@
         custom_preshifted_3: custom_preshifted_3 {
             compatible = "zmk,behavior-mod-morph";
             label = "CUSTOM_PRESHIFTED_3";
-            bindings = <&kp LS(NUMBER_3)>, <&kp LA(LC(NUMBER_3))>;
+            bindings = <&kp LS(NUMBER_3)>, <&kp RA(NUMBER_3)>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
@@ -375,7 +375,7 @@
         custom_preshifted_4: custom_preshifted_4 {
             compatible = "zmk,behavior-mod-morph";
             label = "CUSTOM_PRESHIFTED_4";
-            bindings = <&kp LS(NUMBER_4)>, <&kp LA(LC(NUMBER_4))>;
+            bindings = <&kp LS(NUMBER_4)>, <&kp LC(RA(NUMBER_4))>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
@@ -384,7 +384,7 @@
         custom_preshifted_5: custom_preshifted_5 {
             compatible = "zmk,behavior-mod-morph";
             label = "CUSTOM_PRESHIFTED_5";
-            bindings = <&kp LS(NUMBER_5)>, <&kp LA(LC(NUMBER_5))>;
+            bindings = <&kp LS(NUMBER_5)>, <&kp LC(RA(NUMBER_5))>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
